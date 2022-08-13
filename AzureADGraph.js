@@ -104,7 +104,10 @@ const getToken = async (code, props) => {
     .catch((error) => {
       console.error(error);
     });
-    return await callMsGraph(tokenResponse.access_token);
+    return {
+      ...await callMsGraph(tokenResponse.access_token),
+      tokenResponse,
+    }
 }; //end getToken()
 
 /*
