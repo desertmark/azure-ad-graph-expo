@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "expo": "^46.0.0",
-    "expo-auth-session": "^3.7.1"
+    "expo-auth-session": "~3.7.1",
+    "expo-random": "~12.3.0"
   },
   "name": "fgasulay-azure-ad-graph-expo",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Small library designed for use with Expo, for getting user data from the Microsoft Graph API, using Azure AD for authentication, and following the Microsoft Azure AD auth flow.  AzureADGraph is not a react component.",
   "main": "AzureADGraph.js",
   "devDependencies": {},
